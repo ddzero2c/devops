@@ -1,5 +1,3 @@
-# Logging service for Everest
-
 ### Installation
 
 1. ./bootstrape.sh
