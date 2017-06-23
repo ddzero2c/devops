@@ -1,0 +1,11 @@
+
+all_nodes:
+  children: 
+    - test_host_all
+    
+test_host_all:
+  hosts:
+    - 192.168.0.1
+  vars:
+    ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+    ansible_user: ubuntu
